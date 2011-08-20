@@ -1,0 +1,12 @@
+Atrium OpenTok
+=======================
+Provides integration with OpenTok's Video Chat API.
+
+Requirements:
+-OpenTokAPI: https://github.com/markwk/opentokapi (Drupal 6 Helper Module)
+-Libraries:
+    1. jquery.opentok
+    2. jquery.resize
+    3. json-js
+
+
