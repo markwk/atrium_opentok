@@ -6,5 +6,5 @@ include_once('atrium_opentok.features.inc');
 * Implementation of hook_init().
 */
 function atrium_opentok_init() {
-  drupal_add_css(drupal_get_path('module', 'atrium_opentok') .'/.css');
+  drupal_add_css(drupal_get_path('module', 'atrium_opentok') .'/atrium_opentok.css');
 }
