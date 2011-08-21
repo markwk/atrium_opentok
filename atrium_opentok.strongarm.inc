@@ -75,15 +75,15 @@ function atrium_opentok_strongarm() {
   $strongarm->name = 'content_extra_weights_video_chat_og';
   $strongarm->value = array(
     'title' => '-5',
-    'body_field' => '-2',
-    'revision_information' => '3',
-    'author' => '2',
-    'options' => '4',
-    'comment_settings' => '5',
+    'body_field' => '-1',
+    'revision_information' => '4',
+    'author' => '3',
+    'options' => '5',
+    'comment_settings' => '6',
     'menu' => '-4',
-    'book' => '0',
-    'attachments' => '6',
-    'og_nodeapi' => '1',
+    'book' => '1',
+    'attachments' => '7',
+    'og_nodeapi' => '2',
   );
   $export['content_extra_weights_video_chat_og'] = $strongarm;
 
