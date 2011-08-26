@@ -35,11 +35,28 @@ function atrium_opentok_user_default_permissions() {
     ),
   );
 
+  // Exported permission: edit field_opentok_sess
+  $permissions['edit field_opentok_sess'] = array(
+    'name' => 'edit field_opentok_sess',
+    'roles' => array(
+      '0' => 'authenticated user',
+    ),
+  );
+
   // Exported permission: edit own video_chat_og content
   $permissions['edit own video_chat_og content'] = array(
     'name' => 'edit own video_chat_og content',
     'roles' => array(
       '0' => 'authenticated user',
+    ),
+  );
+
+  // Exported permission: view field_opentok_sess
+  $permissions['view field_opentok_sess'] = array(
+    'name' => 'view field_opentok_sess',
+    'roles' => array(
+      '0' => 'anonymous user',
+      '1' => 'authenticated user',
     ),
   );
 

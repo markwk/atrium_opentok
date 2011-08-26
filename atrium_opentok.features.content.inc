@@ -122,12 +122,7 @@ function atrium_opentok_content_default_fields() {
           'auto_connect' => 0,
           'auto_publish' => 0,
           'push_talk' => 0,
-          'roles' => array(
-            '1' => 'subscriber',
-            '2' => 'subscriber',
-            '3' => 'subscriber',
-            '4' => 'subscriber',
-          ),
+          'session_type' => 0,
         ),
       ),
       'default_value_php' => NULL,
@@ -139,81 +134,9 @@ function atrium_opentok_content_default_fields() {
     ),
   );
 
-  // Exported field: field_presenter
-  $fields['video_chat_og-field_presenter'] = array(
-    'field_name' => 'field_presenter',
-    'type_name' => 'video_chat_og',
-    'display_settings' => array(
-      'weight' => '-2',
-      'parent' => '',
-      'label' => array(
-        'format' => 'inline',
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'userreference',
-    'required' => '0',
-    'multiple' => '1',
-    'module' => 'userreference',
-    'active' => '1',
-    'referenceable_roles' => array(
-      '2' => 0,
-      '3' => 0,
-      '4' => 0,
-    ),
-    'referenceable_status' => '',
-    'advanced_view' => '--',
-    'advanced_view_args' => '',
-    'widget' => array(
-      'autocomplete_match' => 'contains',
-      'size' => '60',
-      'reverse_link' => 0,
-      'default_value' => array(
-        '0' => array(
-          'uid' => NULL,
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Presenter(s)',
-      'weight' => '-2',
-      'description' => '',
-      'type' => 'userreference_buttons',
-      'module' => 'userreference',
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('Date');
-  t('Presenter(s)');
   t('Video Chat');
 
   return $fields;
