@@ -1,0 +1,29 @@
+# Atrium OpenTok
+=======================
+-Provides integration with OpenTok's Video Chat API.
+-Allows groups to have broadcast or group chat sessions.
+
+# Requirements:
+* Opentok: https://github.com/markwk/opentok (Drupal 6 Helper Module)
+* NOTE: It is also possible to use the official Drupal.org OpenTok module http://drupal.org/project/opentok
+* Libraries module: http://drupal.org/project/libraries 
+
+# Libraries:
+1. jquery.opentok: https://github.com/markwk/jquery-opentok
+2. jquery.resize: https://github.com/cowboy/jquery-resize
+3. json-js: https://github.com/douglascrockford/JSON-js
+
+# Installation:
+ 1. Add the necessary depenencies in the sites/all/libraries directory
+ 2. Enable Feature
+ 3. Add Your OpenTok Developer's Keys from http://www.tokbox.com/opentok/api
+ 4. Enable within desired group
+ 5. Create a Video Chat Session
+
+Problems? Add it to the Issue Queue: https://github.com/markwk/atrium_opentok/issues
+
+=============================
+## Maintainer:
+Markwk
+Follow on Twitter @ markwkoester
+Drupal: markwk

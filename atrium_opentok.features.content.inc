@@ -105,10 +105,10 @@ function atrium_opentok_content_default_fields() {
       ),
     ),
     'widget_active' => '1',
-    'type' => 'opentokapi',
+    'type' => 'opentok',
     'required' => '0',
     'multiple' => '0',
-    'module' => 'opentokapi',
+    'module' => 'opentok',
     'active' => '1',
     'author_role' => 'publisher',
     'regenerate_session' => 1,
@@ -129,8 +129,8 @@ function atrium_opentok_content_default_fields() {
       'label' => 'Video Chat',
       'weight' => 0,
       'description' => '',
-      'type' => 'opentokapi_default',
-      'module' => 'opentokapi',
+      'type' => 'opentok_default',
+      'module' => 'opentok',
     ),
   );
 
